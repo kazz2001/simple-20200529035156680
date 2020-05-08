@@ -28,7 +28,7 @@ const SecondLeftText = () => <p>Callout component</p>;
 
 const SecondRightText = () => (
   <p>
-    You can also not use these components at all by not providing the callout
+    You cann also not use these components at all by not providing the callout
     props to the template or writing your own template.
     <a
       className={calloutLink}

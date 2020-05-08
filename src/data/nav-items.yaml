@@ -4,6 +4,12 @@
 - title: Demo
   pages:
     - path: /demo
+- title: CD Review
+  pages:
+    - title: 20199
+      path: <a href="http://planetky.com"></a>
+    - title: 2018
+      path: /guides/configuration
 - title: Gallery
   pages:
     - path: /gallery
