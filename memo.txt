@@ -1,0 +1,9 @@
+ファイル変更
+	manifest.yml
+	Staticfile
+	.cfignore
+yarn buil
+cfへのdeploy
+	cf push -f manifest.yml
+
+
