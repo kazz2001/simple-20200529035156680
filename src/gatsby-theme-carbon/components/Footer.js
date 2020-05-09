@@ -30,10 +30,10 @@ const links = {
     { href: 'https://ibm.com/design', linkText: 'Shadowed link3' },
   ],
   secondCol: [
-    { href: 'https://ibm.com/design', linkText: 'Shadowed link' },
-    { href: 'https://ibm.com/design', linkText: 'Shadowed link' },
-    { href: 'https://ibm.com/design', linkText: 'Shadowed link' },
-    { href: 'https://ibm.com/design', linkText: 'Shadowed link' },
+    { href: 'https://ibm.com/design', linkText: 'Shadowed link1' },
+    { href: 'https://ibm.com/design', linkText: 'Shadowed link2' },
+    { href: 'https://ibm.com/design', linkText: 'Shadowed link3' },
+    { href: 'https://ibm.com/design', linkText: 'Shadowed link4' },
   ],
 };
 
