@@ -2,11 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\src",
+    "\\src\\data",
     "\\src\\gatsby-theme-carbon",
-    "\\src\\gatsby-theme-carbon\\components",
-    "\\src\\gatsby-theme-carbon\\templates",
-    "\\src\\pages\\components"
+    "\\src\\gatsby-theme-carbon\\templates"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\src\\gatsby-theme-carbon\\components",
   "PreviewInSolutionExplorer": false
 }
