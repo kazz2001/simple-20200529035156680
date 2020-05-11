@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Black Music CD Review',
+    title: 'Gatsby Theme Carbon',
     description: 'A Gatsby theme for the carbon design system',
     keywords: 'gatsby,theme,carbon',
   },
@@ -22,7 +22,8 @@ module.exports = {
       options: {
         repository: {
           baseUrl:
-            'https://github.com/kazz2001/my-carbon-site'
+            'https://github.com/carbon-design-system/gatsby-theme-carbon',
+          subDirectory: '/packages/example',
         },
       },
     },
