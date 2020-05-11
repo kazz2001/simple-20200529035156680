@@ -4,6 +4,9 @@
 - title: Demo
   pages:
     - path: /demo
+- title: Latest Reviews
+  pages:
+    - path: /latest
 - title: Best 50 
   pages:
     - title: 2019
