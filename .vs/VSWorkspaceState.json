@@ -4,13 +4,12 @@
     "\\src",
     "\\src\\data",
     "\\src\\gatsby-theme-carbon",
-    "\\src\\gatsby-theme-carbon\\components",
-    "\\src\\gatsby-theme-carbon\\components\\LeftNav",
     "\\src\\pages",
+    "\\src\\pages\\cd",
     "\\src\\pages\\guides",
     "\\src\\pages\\latest",
-    "\\src\\styles"
+    "\\src\\pages\\review"
   ],
-  "SelectedNode": "\\src\\pages\\latest\\index.mdx",
+  "SelectedNode": "\\src\\gatsby-theme-carbon\\templates",
   "PreviewInSolutionExplorer": false
 }
