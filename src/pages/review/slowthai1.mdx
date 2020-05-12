@@ -1,0 +1,21 @@
+<Column colMd={4} colLg={4} noGutterMdLeft>
+<ArticleCard
+  title="Slowthai / Nothing Great About Britain"
+  href="http://planetky.com/slowthai1.htm"
+  actionIcon="arrowRight"
+>
+
+![Slowthai / Nothing Great About Britain](http://planetky.com/gif/slowthai1L.jpg)
+
+</ArticleCard>
+</Column>
+
+<!-- This default export overrides the default layout ensuring -->
+<!--  that the FAQ component isn't wrapped by other elements -->
+export default function Layout({ children }) {
+  return (
+    <>
+      {children}
+    </>
+  );
+}
