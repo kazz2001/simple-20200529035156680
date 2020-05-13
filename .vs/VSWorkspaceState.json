@@ -2,14 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\data",
     "\\src\\gatsby-theme-carbon",
+    "\\src\\gatsby-theme-carbon\\components",
+    "\\src\\gatsby-theme-carbon\\components\\FeedbackDialog",
     "\\src\\pages",
     "\\src\\pages\\cd",
     "\\src\\pages\\guides",
     "\\src\\pages\\latest",
     "\\src\\pages\\review"
   ],
-  "SelectedNode": "\\src\\gatsby-theme-carbon\\templates",
+  "SelectedNode": "\\src\\gatsby-theme-carbon\\components\\FeedbackDialog\\FeedbackDialog.js",
   "PreviewInSolutionExplorer": false
 }

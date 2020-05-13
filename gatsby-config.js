@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: 'Black Music CD Review',
-    description: 'A Gatsby theme for the carbon design system',
-    keywords: 'gatsby,theme,carbon',
+    description: 'CD review for Soul and Hip-Hop Music',
+    keywords: 'CD,CD Review,Black Music,Soul,Hip-Hop',
   },
   pathPrefix: `/gtc`,
   plugins: [
