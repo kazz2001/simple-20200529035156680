@@ -9,15 +9,7 @@ const FirstLeftText = () => <p>Black Music CD Review</p>;
 
 const FirstRightText = () => (
     <p>
-        This is a callout component. You can edit the contents by updating
-    . You can also provide <code>color</code> and <code>backgroundColor</code>{' '}
-    props to suit your theme.
-        <a
-            className={calloutLink}
-            href="https://github.com/carbon-design-system/gatsby-theme-carbon/blob/master/packages/example/src/gatsby-theme-carbon/templates/Homepage.js"
-        >
-            Homepage
-    </a>
+        <code>Black Music CD Review</code> introduces CD review for Soul and Hip-Hop since 1998
     </p>
 );
 
@@ -35,7 +27,7 @@ const SecondRightText = () => (
     </p>
 );
 
-const BannerText = () => <h1>planet.ky</h1>;
+const BannerText = () => <h1>Black Musicc CD Review by planet.ky</h1>;
 
 const customProps = {
     Banner: <HomepageBanner renderText={BannerText} image={Carbon} />,

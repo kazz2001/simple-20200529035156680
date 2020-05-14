@@ -2,15 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\gatsby-theme-carbon",
-    "\\src\\gatsby-theme-carbon\\components",
-    "\\src\\gatsby-theme-carbon\\components\\FeedbackDialog",
-    "\\src\\pages",
-    "\\src\\pages\\cd",
-    "\\src\\pages\\guides",
-    "\\src\\pages\\latest",
-    "\\src\\pages\\review"
+    "\\src\\gatsby-theme-carbon"
   ],
-  "SelectedNode": "\\src\\gatsby-theme-carbon\\components\\FeedbackDialog\\FeedbackDialog.js",
+  "SelectedNode": "\\manifest.yml",
   "PreviewInSolutionExplorer": false
 }
