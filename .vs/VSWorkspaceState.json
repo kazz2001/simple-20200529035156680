@@ -2,8 +2,14 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\gatsby-theme-carbon"
+    "\\src\\gatsby-theme-carbon",
+    "\\src\\gatsby-theme-carbon\\templates",
+    "\\src\\pages",
+    "\\src\\pages\\best50",
+    "\\src\\pages\\cd",
+    "\\src\\pages\\demo",
+    "\\src\\pages\\review"
   ],
-  "SelectedNode": "\\manifest.yml",
+  "SelectedNode": "\\src\\gatsby-theme-carbon\\templates\\Homepage.js",
   "PreviewInSolutionExplorer": false
 }

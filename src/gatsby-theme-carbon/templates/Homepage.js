@@ -13,17 +13,11 @@ const FirstRightText = () => (
     </p>
 );
 
-const SecondLeftText = () => <p>Black Music CD Review</p>;
+const SecondLeftText = () => <p>CD Best 50</p>;
 
 const SecondRightText = () => (
     <p>
-        You can also not 
-        <a
-            className={calloutLink}
-            href="https://github.com/carbon-design-system/gatsby-theme-carbon/blob/master/packages/example/src/gatsby-theme-carbon/templates/Homepage.js"
-        >
-            Homepage
-    </a>
+        Black Music Best 50 albums since 1998
     </p>
 );
 
