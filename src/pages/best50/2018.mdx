@@ -3,18 +3,15 @@ title: 2018 Black Music Best 50
 tabs: ['2019', '2018']
 description: 2018 Black Music Best 50 by planet.ky
 ---
+import { Slider } from 'carbon-components-react';
 
-import 'gatsby-theme-carbon/src/styles/index.scss';
+import "carbon-components/scss/globals/grid/_grid.scss";
 
-<PageDescription>
+<PageDescription> 
 
 Black Music Best 50 by planet.ky
 
 </PageDescription>
-
-## Example
-
-
 
 
 <Title>2018 Black Music Best 50</Title>
@@ -72,6 +69,32 @@ Black Music Best 50 by planet.ky
 | 49  | Maxo Kream / Brandon Banks                                                        |
 | 50 |  Snoh Aalegra / - ugh, those feels again                                           |
 
+<div>
+<div className="some-container">
+  <Slider hideTextInput
+  ariaLabelInput="Label for slider value"
+  id="slider"
+  labelText="Soul  ---   hip-hop"
+  max={5}
+  min={1}
+  step={1}
+  stepMuliplier={4}
+  value={3}
+  />
+</div>
+<div className="some-container">
+  <Slider hideTextInput
+  ariaLabelInput="Label for slider value"
+  id="slider"
+  labelText="Soul  ---   hip-hop"
+  max={5}
+  min={1}
+  step={1}
+  stepMuliplier={4}
+  value={3}
+  />
+</div>
+</div>
 <div class="bx--grid">
   <div class="bx--row">
     <div class="bx--col-lg-16">16</div>
