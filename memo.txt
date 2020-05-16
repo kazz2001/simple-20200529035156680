@@ -7,3 +7,12 @@ cf‚Ö‚Ìdeploy
 	cf push -f manifest.yml
 
 
+
+Äsetup
+	https://gatsby-theme-carbon.now.sh/getting-started
+	git remote add
+	git fetch origin
+	git branch B1 origin/B1
+	git checkout B1
+
+
