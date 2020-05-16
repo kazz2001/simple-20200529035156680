@@ -3,13 +3,14 @@
     "",
     "\\src",
     "\\src\\gatsby-theme-carbon",
-    "\\src\\gatsby-theme-carbon\\templates",
     "\\src\\pages",
     "\\src\\pages\\best50",
     "\\src\\pages\\cd",
-    "\\src\\pages\\demo",
+    "\\src\\pages\\getting-started",
+    "\\src\\pages\\guides",
+    "\\src\\pages\\guides\\navigation",
     "\\src\\pages\\review"
   ],
-  "SelectedNode": "\\src\\gatsby-theme-carbon\\templates\\Homepage.js",
+  "SelectedNode": "\\src\\pages\\review\\tyler4.mdx",
   "PreviewInSolutionExplorer": false
 }
