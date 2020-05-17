@@ -15,4 +15,6 @@ cf‚Ö‚Ìdeploy
 	git branch B1 origin/B1
 	git checkout B1
 
-
+‹­§“¯Šú
+	git stash save
+	git pull origin XX
