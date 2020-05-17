@@ -1,9 +1,7 @@
 import React from 'react';
 import { Tag } from 'carbon-components-react';
-import { Add16 } from "@carbon/icons-react";
 import { HomepageBanner, HomepageCallout } from 'gatsby-theme-carbon';
 import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
-import { calloutLink } from './Homepage.module.scss';
 
 import Carbon from '../../images/carbon.jpg';
 
@@ -15,7 +13,6 @@ const FirstRightText = () => (
         <div>
             <Tag type="blue" title="Clear Filter"> 2019 </Tag>
         </div>
-        <Add16 />
     </p>
 );
 

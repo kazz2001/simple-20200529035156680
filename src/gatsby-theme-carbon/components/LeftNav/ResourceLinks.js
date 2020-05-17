@@ -10,10 +10,6 @@ const links = [
     title: 'Carbon',
     href: 'https://www.carbondesignsystem.com',
   },
-  {
-    title: 'Configuration guide',
-    href: '/guides/configuration',
-  },
 ];
 
 // shouldOpenNewTabs: true if outbound links should open in a new tab

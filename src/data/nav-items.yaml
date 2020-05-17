@@ -11,4 +11,6 @@
       path: /best50/2019
     - title: 2018
       path: /best50/2018
--
+- title: Last Reviews
+  pages:
+    - path: /review/raulmidon1local
