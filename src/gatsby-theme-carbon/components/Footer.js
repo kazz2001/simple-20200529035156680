@@ -7,11 +7,6 @@ const Content = ({ buildTime }) => (
       The <code>Content</code> component receives a <code>buildTime</code> prop
       that to display your site's build time: {buildTime}
     </p>
-    <p>
-      <a href="https://www.gatsbyjs.org/docs/themes/api-reference/#component-shadowing">
-        More about component shadowing
-      </a>
-    </p>
   </>
 );
 

@@ -2,7 +2,7 @@
 	manifest.yml
 	Staticfile
 	.cfignore
-yarn buil
+yarn build
 cf‚Ö‚Ìdeploy
 	cf push -f manifest.yml
 
@@ -18,3 +18,6 @@ cf‚Ö‚Ìdeploy
 ‹­§“¯Šú
 	git stash save
 	git pull origin XX
+
+To Do
+	Component‰»

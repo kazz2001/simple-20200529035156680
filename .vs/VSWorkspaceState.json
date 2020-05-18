@@ -2,15 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\data",
-    "\\src\\images",
+    "\\src\\gatsby-theme-carbon",
+    "\\src\\gatsby-theme-carbon\\components",
+    "\\src\\gatsby-theme-carbon\\components\\LeftNav",
     "\\src\\pages",
-    "\\src\\pages\\cd",
-    "\\src\\pages\\latest",
+    "\\src\\pages\\getting-started",
+    "\\src\\pages\\guides\\navigation",
     "\\src\\pages\\review",
-    "\\src\\pages\\review\\images",
-    "\\src\\styles"
+    "\\src\\pages\\test"
   ],
-  "SelectedNode": "\\src\\pages\\best50\\2019.mdx",
+  "SelectedNode": "\\src\\gatsby-theme-carbon\\components\\LeftNav\\ResourceLinks.js",
   "PreviewInSolutionExplorer": false
 }
