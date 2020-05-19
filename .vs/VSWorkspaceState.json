@@ -4,13 +4,13 @@
     "\\src",
     "\\src\\gatsby-theme-carbon",
     "\\src\\gatsby-theme-carbon\\components",
-    "\\src\\gatsby-theme-carbon\\components\\LeftNav",
-    "\\src\\pages",
+    "\\src\\gatsby-theme-carbon\\templates",
+    "\\src\\pages\\best50",
     "\\src\\pages\\getting-started",
-    "\\src\\pages\\guides\\navigation",
     "\\src\\pages\\review",
-    "\\src\\pages\\test"
+    "\\src\\pages\\test",
+    "\\src\\styles"
   ],
-  "SelectedNode": "\\src\\gatsby-theme-carbon\\components\\LeftNav\\ResourceLinks.js",
+  "SelectedNode": "\\src\\gatsby-theme-carbon\\components\\Header.js",
   "PreviewInSolutionExplorer": false
 }

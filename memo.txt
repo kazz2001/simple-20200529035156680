@@ -21,3 +21,5 @@ cf‚Ö‚Ìdeploy
 
 To Do
 	Component‰»
+	style (font, grid)
+	slider‚ÌƒtƒHƒ“ƒg
