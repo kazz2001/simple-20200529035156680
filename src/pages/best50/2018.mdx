@@ -3,11 +3,18 @@ title: 2018 Black Music Best 50
 tabs: ['2019', '2018']
 description: 2018 Black Music Best 50 by planet.ky
 ---
+
+import Slider1 from "../best50/slider1.mdx"
+
 import { Slider } from 'carbon-components-react';
 import { Link } from "gatsby"
 import { Add24 } from '@carbon/icons-react';
 
 import { Airplane } from '@carbon/pictograms-react';
+
+export const metadata = {
+  maxValue: "10",
+};
 
 <PageDescription> 
 
@@ -15,8 +22,11 @@ Black Music Best 50 by planet.ky
 
 </PageDescription>
 
+ <Slider1 />
+
  <Airplane />
  <Add24 />
+
 
 [Text](/2019)
 <Link to="/best50/2019/">2019</Link>
@@ -27,44 +37,6 @@ Black Music Best 50 by planet.ky
 | -- | ---------------------------------------------------------------------------------- | 
 | 1  | [Tyler, the Creator / IGOR](http://planetky.com/tyler4.htm)                        |  
 | 2  | [Solange / When I Get Home](http://planetky.com/solange4.htm)                      | 
-| 3  | [l izzo / Cuz I Love You](http://planetky.com/lizzo1.htm)                          |
-| 4  | [little Simz / GREY Area](http://planetky.com/littlesimz1.htm)                     |
-| 5  | [Freddie Gibbs &amp; Madlib / Bandana](http://planetky.com/fgibbsandmadlib2.htm)   |
-| 6  | [Rapsody / Eve](http://planetky.com/rapsody2.htm)                                  |
-| 7  | [Jamila Woods / LEGACY! LEGACY!](http://planetky.com/jamilawoods2.htm)             |
-| 8  | [Ariana Grande / thank u, next](http://planetky.com/arianagrande5.htm)             |
-| 9  | [slowthai / Nothing Great About Britain](http://planetky.com/slowthai1.htm)        |
-| 10 | [Michael Kiwanuka / Kiwanuka](http://planetky.com/mkiwanuka3.htm)                  |
-| 11 | Danny Brown / uknowhatimsayin?                                                     |                
-| 12 | Dave / Psychodrama                                                                 |
-| 13 | [Anderson .Paak / Ventura(http://planetky.com/andersonpaak4.htm)                   |
-| 14 | [Steve Lacy / Apollo XXI](http://planetky.com/stevelacy1.htm)                      |
-| 15 | [Ari Lennox / Shea Butter Baby](http://planetky.com/arilennox1.htm)                |
-| 16 | [Raphael Saadiq / Jimmy Lee](http://planetky.com/rsaadiq6.htm)                     |
-| 17 | [DaBaby / Kirk](http://planetky.com/dababy1.htm)                                   |
-| 18 | Summer Walker / Over It                                                            |
-| 19 | JPEGMAFIA / All My Heroes Are Cornballs                                            |
-| 20 | [Flying Lotus / Flamagra](http://planetky.com/flyinglotus3.htm)                    |
-| 21 | Megan Thee Stallion / Fever                                                        |
-| 22  |[Denzel Curry / ZUU](http://planetky.com/denzelcurry1.htm)                         |
-| 23  | Young Thug / So Much Fun                                                          |
-| 24  | [Mark Ronson / Late Night Feelings](http://planetky.com/markronson2.htm)          |
-| 25  | Beyonce / HOMECOMING: THE LIVE ALBUM                                              |
-| 26  | YBN Cordae / The Lost Boy                                                         |
-| 27  | Tank and The Bangus / Green Balloon                                               |
-| 28  | Sudan Archives / Athena                                                           |
-| 29  | Little Brother / May The Lord Watch                                               |
-| 30  | DaBaby / Baby On Baby                                                             |
-| 31  | Billy Woods &amp; Kenny Segal / Hiding Places                                     |
-| 32  | [King Princess / Cheap Queen](http://planetky.com/kingprincess1.htm)              |
-| 33  | [Blood Orange / Angel's Pulse](http://planetky.com/bloodorange4.htm)              |
-| 34  | The O'jays / The Last Word                                                        |
-| 35  | Post Malone / Hollywood's Bleeding                                                |
-| 36  | Stormzy / Heavy Is The Head                                                       |
-| 37  | [PJ Morton / Paul](http://planetky.com/pjmorton1.htm)                             |
-| 38  | Lucky Daye / Painted                                                              |
-| 39  | Lil Nas X / 7                                                                     |
-| 40  | [Kanye West / JESUS IS KING](http://planetky.com/ kanyewest10.htm)                |
 
 <div>
 <div className="some-container">
@@ -72,19 +44,7 @@ Black Music Best 50 by planet.ky
   ariaLabelInput="Label for slider value"
   id="slider"
   labelText="Soul  ---   hip-hop"
-  max={5}
-  min={1}
-  step={1}
-  stepMuliplier={4}
-  value={3}
-  />
-</div>
-<div className="some-container">
-  <Slider hideTextInput
-  ariaLabelInput="Label for slider value"
-  id="slider"
-  labelText="Soul  ---   hip-hop"
-  max={5}
+  max={metadata.maxValue}
   min={1}
   step={1}
   stepMuliplier={4}
@@ -92,7 +52,7 @@ Black Music Best 50 by planet.ky
   />
 </div>
 </div>
-<div class="bx--grid">
+<div className="bx--grid">
   <div class="bx--row">
     <div class="bx--col-lg-16">16</div>
   </div>

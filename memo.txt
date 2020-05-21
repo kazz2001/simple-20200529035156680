@@ -15,6 +15,9 @@ cf‚Ö‚Ìdeploy
 	git branch B1 origin/B1
 	git checkout B1
 
+	carbon pictgram install
+	(yarn install)
+	
 ‹­§“¯Šú
 	git stash save
 	git pull origin XX
@@ -23,3 +26,5 @@ To Do
 	Component‰»
 	style (font, grid)
 	slider‚ÌƒtƒHƒ“ƒg
+	IBM‚ÌLogo‚Í‚¸‚·
+	Header‚Ì•‚ğ‹·‚ß‚é

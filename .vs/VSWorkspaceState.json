@@ -1,16 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src",
-    "\\src\\gatsby-theme-carbon",
-    "\\src\\gatsby-theme-carbon\\components",
-    "\\src\\gatsby-theme-carbon\\templates",
-    "\\src\\pages\\best50",
-    "\\src\\pages\\getting-started",
-    "\\src\\pages\\review",
-    "\\src\\pages\\test",
-    "\\src\\styles"
+    "\\src"
   ],
-  "SelectedNode": "\\src\\gatsby-theme-carbon\\components\\Header.js",
+  "SelectedNode": "\\src\\index.scss",
   "PreviewInSolutionExplorer": false
 }
