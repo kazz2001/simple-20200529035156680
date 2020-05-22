@@ -6,8 +6,11 @@
     "\\src\\gatsby-theme-carbon\\components",
     "\\src\\gatsby-theme-carbon\\components\\FeedbackDialog",
     "\\src\\gatsby-theme-carbon\\templates",
-    "\\src\\pages\\best50"
+    "\\src\\pages",
+    "\\src\\pages\\best50",
+    "\\src\\pages\\latest",
+    "\\src\\pages\\review"
   ],
-  "SelectedNode": "\\src\\gatsby-theme-carbon\\components\\FeedbackDialog\\FeedbackDialog.js",
+  "SelectedNode": "\\src\\pages\\latest\\index.mdx",
   "PreviewInSolutionExplorer": false
 }

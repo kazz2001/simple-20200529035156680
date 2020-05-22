@@ -26,3 +26,4 @@ To Do
 	style (font, grid)
 	IBM‚ÌLogo‚Í‚¸‚· (“à•”QÆ)
 	Header‚Ì•‚ğ‹·‚ß‚é
+	Favicon

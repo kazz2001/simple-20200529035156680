@@ -14,6 +14,7 @@ module.exports = {
         start_url: '/',
         background_color: '#ffffff',
         theme_color: '#0062ff',
+        icon: "src/images/music.svg", 
         display: 'browser',
       },
     },
