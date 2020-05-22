@@ -5,6 +5,7 @@ description: 2018 Black Music Best 50 by planet.ky
 ---
 
 import Slider1 from "../best50/slider1.mdx"
+import SliderJS from "../best50/slider2"
 
 import { Slider } from 'carbon-components-react';
 import { Link } from "gatsby"
@@ -12,9 +13,7 @@ import { Add24 } from '@carbon/icons-react';
 
 import { Airplane } from '@carbon/pictograms-react';
 
-export const metadata = {
-  maxValue: "10",
-};
+export const metadata = { maxValue: "10", };
 
 <PageDescription> 
 
@@ -22,13 +21,12 @@ Black Music Best 50 by planet.ky
 
 </PageDescription>
 
- <Slider1 />
+  <SliderJS value="4" />
 
  <Airplane />
  <Add24 />
-
-
-[Text](/2019)
+ <Slider1 />
+ [Text](/2019)
 <Link to="/best50/2019/">2019</Link>
 
 <Title>2018 Black Music Best 50</Title>
@@ -52,6 +50,21 @@ Black Music Best 50 by planet.ky
   />
 </div>
 </div>
+  <div className="bx--grid bx--grid--full-width landing-page">
+    <div className="bx--row landing-page__banner">
+      <div className="bx--col-lg-16">1</div>
+    </div>
+    <div className="bx--row landing-page__r2">
+      <div className="bx--col-md-4 bx--col-lg-7">7/16</div>
+      <div className="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">8/16</div>
+    </div>
+    <div className="bx--row landing-page__r3">
+      <div className="bx--col-md-4 bx--col-lg-4">1/4</div>
+      <div className="bx--col-md-4 bx--col-lg-4">1/4</div>
+      <div className="bx--col-md-4 bx--col-lg-4">1/4</div>
+      <div className="bx--col-md-4 bx--col-lg-4">1/4</div>
+    </div>
+  </div>
 <div className="bx--grid">
   <div class="bx--row">
     <div class="bx--col-lg-16">16</div>

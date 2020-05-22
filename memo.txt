@@ -23,8 +23,6 @@ cfへのdeploy
 	git pull origin XX
 
 To Do
-	Component化
 	style (font, grid)
-	sliderのフォント
-	IBMのLogoはずす
+	IBMのLogoはずす (内部参照)
 	Headerの幅を狭める

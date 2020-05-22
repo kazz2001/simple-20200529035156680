@@ -1,5 +1,10 @@
 import React from 'react';
 import Footer from 'gatsby-theme-carbon/src/components/Footer';
+import PlanetkyLogo from './planetkylogo.gif';
+
+const Logo = () => (
+  <img src="http://bm.planetky.com/flipwhiteh.gif" />
+);
 
 const Content = ({ buildTime }) => (
   <>
@@ -19,6 +24,6 @@ const links = {
   ],
 };
 
-const CustomFooter = () => <Footer links={links} Content={Content} />;
+const CustomFooter = () => <Footer links={links} Content={Content} Logo={Logo} />;
 
 export default CustomFooter;

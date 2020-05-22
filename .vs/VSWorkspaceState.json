@@ -1,8 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src"
+    "\\src",
+    "\\src\\gatsby-theme-carbon",
+    "\\src\\gatsby-theme-carbon\\components",
+    "\\src\\gatsby-theme-carbon\\components\\FeedbackDialog",
+    "\\src\\gatsby-theme-carbon\\templates",
+    "\\src\\pages\\best50"
   ],
-  "SelectedNode": "\\src\\index.scss",
+  "SelectedNode": "\\src\\gatsby-theme-carbon\\components\\FeedbackDialog\\FeedbackDialog.js",
   "PreviewInSolutionExplorer": false
 }
