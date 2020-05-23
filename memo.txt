@@ -15,12 +15,17 @@ cfへのdeploy
 	git branch B1 origin/B1
 	git checkout B1
 
-	carbon pictgram install
-	(yarn install)
+	npm install -S @carbon/pictograms
 	
 強制同期
 	git stash save
 	git pull origin XX
+
+package.json変更
+	npm update
+
+git 無視ファイルをcacheから削除
+	git rm -r --cached .vs
 
 To Do
 	style (font, grid)

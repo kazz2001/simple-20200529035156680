@@ -24,7 +24,7 @@ module.exports = {
           baseUrl:
             'https://github.com/carbon-design-system/gatsby-theme-carbon',
           subDirectory: '/packages/example',
-          iconPath: "./src/images/music.svg"
+          iconPath: "./src/images/music.png"
           },
       },
     },
