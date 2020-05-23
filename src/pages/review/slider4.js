@@ -4,7 +4,7 @@ import { Slider } from 'carbon-components-react';
 const SliderJS4 = (props) => {
     return (
         <div>
-        <br/>
+            <hr />
 
         <p>Rating</p>
                            

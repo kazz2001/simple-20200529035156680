@@ -15,17 +15,18 @@ module.exports = {
         background_color: '#ffffff',
         theme_color: '#0062ff',
         display: 'browser',
+        icon: "src/images/music.png", 
       },
     },
     {
       resolve: 'gatsby-theme-carbon',
       options: {
+        iconPath: './src/images/music.png', 
         repository: {
           baseUrl:
-            'https://github.com/carbon-design-system/gatsby-theme-carbon',
+            'https://github.com/kazz2001/my-carbon-site',
           subDirectory: '/packages/example',
-          iconPath: "./src/images/music.png"
-          },
+        },
       },
     },
   ],

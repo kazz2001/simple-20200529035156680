@@ -4,9 +4,9 @@ import { Slider } from 'carbon-components-react';
 const SliderJS1 = (props) => {
     return (
         <div>
-        <br/>
+        <hr />
 
-        <p>Pap Oriented  -------- song oriented</p>
+        <p>  Pap Oriented  ----- song oriented</p>
         <Slider
             hideTextInput
             ariaLabelInput="Label for slider value"

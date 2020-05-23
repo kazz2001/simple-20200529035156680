@@ -4,9 +4,9 @@ import { Slider } from 'carbon-components-react';
 const SliderJS2 = (props) => {
     return (
         <div>
-        <br/>
+        <hr/>
 
-        <p>urban  ---------------------  earthy</p>
+        <p>  urban  -------------------  earthy</p>
                                       
         <Slider
             hideTextInput
