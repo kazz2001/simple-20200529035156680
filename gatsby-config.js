@@ -14,7 +14,6 @@ module.exports = {
         start_url: '/',
         background_color: '#ffffff',
         theme_color: '#0062ff',
-        icon: "src/images/music.svg", 
         display: 'browser',
       },
     },
@@ -25,7 +24,8 @@ module.exports = {
           baseUrl:
             'https://github.com/carbon-design-system/gatsby-theme-carbon',
           subDirectory: '/packages/example',
-        },
+          iconPath: "./src/images/music.svg"
+          },
       },
     },
   ],
