@@ -7,6 +7,8 @@ description: 2018 Black Music Best 50 by planet.ky
 import Slider1 from "../best50/slider1.mdx"
 import SliderJS from "../best50/slider2"
 
+import './_2018.scss';
+
 import { Slider } from 'carbon-components-react';
 import { Link } from "gatsby"
 import { Add24 } from '@carbon/icons-react';
@@ -27,8 +29,8 @@ Black Music Best 50 by planet.ky
  <Add24 />
  <Slider1 />
  [Text](/2019)
-<Link to="/best50/2019/">2019</Link>
-
+ <Link to="/best50/2019/">2019</Link>
+ 
 <Title>2018 Black Music Best 50</Title>
 
 | No | Artist/Title                                                                       | 
@@ -36,7 +38,6 @@ Black Music Best 50 by planet.ky
 | 1  | [Tyler, the Creator / IGOR](http://planetky.com/tyler4.htm)                        |  
 | 2  | [Solange / When I Get Home](http://planetky.com/solange4.htm)                      | 
 
-<div>
 <div className="some-container">
   <Slider hideTextInput
   ariaLabelInput="Label for slider value"
@@ -49,22 +50,21 @@ Black Music Best 50 by planet.ky
   value={3}
   />
 </div>
-</div>
-  <div className="bx--grid bx--grid--full-width landing-page">
-    <div className="bx--row landing-page__banner">
-      <div className="bx--col-lg-16">1</div>
+<div className="bx--grid bx--grid--full-width ">
+    <div className="bx--row ">
+      <div className="bx--col-lg-16 bx--left--border">1</div>
     </div>
-    <div className="bx--row landing-page__r2">
+    <div className="bx--row ">
       <div className="bx--col-md-4 bx--col-lg-7">7/16</div>
       <div className="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">8/16</div>
     </div>
-    <div className="bx--row landing-page__r3">
+    <div className="bx--row ">
       <div className="bx--col-md-4 bx--col-lg-4">1/4</div>
       <div className="bx--col-md-4 bx--col-lg-4">1/4</div>
       <div className="bx--col-md-4 bx--col-lg-4">1/4</div>
       <div className="bx--col-md-4 bx--col-lg-4">1/4</div>
     </div>
-  </div>
+</div>
 <div className="bx--grid">
   <div class="bx--row">
     <div class="bx--col-lg-16">16</div>
