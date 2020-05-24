@@ -24,8 +24,8 @@ module.exports = {
         iconPath: './src/images/music.png', 
         repository: {
           baseUrl:
-            'https://github.com/kazz2001/my-carbon-site',
-          subDirectory: '/packages/example',
+            'https://github.com/kazz2001',
+            subDirectory: '/my-carbon-site',
         },
       },
     },

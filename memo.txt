@@ -31,3 +31,5 @@ To Do
 	style (font, grid)
 	IBM‚ÌLogo‚Í‚¸‚· (“à•”QÆ)
 	Header‚Ì•‚ğ‹·‚ß‚é
+
+	C:\Users\user\AppData\Local\Temp
