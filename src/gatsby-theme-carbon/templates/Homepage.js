@@ -26,18 +26,19 @@ const customProps = {
     Banner: <HomepageBanner renderText={BannerText} image={Carbon} />,
     FirstCallout: (
         <HomepageCallout
-            backgroundColor="#061f80"
+            backgroundColor="#000000"
             color="white"
             leftText={FirstLeftText}
             rightText={FirstRightText}
         />
     ),
+    children: (<p>aaa</p>),
     SecondCallout: (
         <HomepageCallout
             leftText={SecondLeftText}
             rightText={SecondRightText}
             color="white"
-            backgroundColor="#061f80"
+            backgroundColor="#000000"
         />
     ),
 };

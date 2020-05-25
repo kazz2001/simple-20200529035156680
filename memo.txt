@@ -1,14 +1,14 @@
-ƒtƒ@ƒCƒ‹•ÏX
+ãƒ•ã‚¡ã‚¤ãƒ«å¤‰æ›´
 	manifest.yml
 	Staticfile
 	.cfignore
 yarn build
-cf‚Ö‚Ìdeploy
+cfã¸ã®deploy
 	cf push -f manifest.yml
 
 
 
-Äsetup
+å†setup
 	https://gatsby-theme-carbon.now.sh/getting-started
 	git remote add
 	git fetch origin
@@ -17,19 +17,29 @@ cf‚Ö‚Ìdeploy
 
 	npm install -S @carbon/pictograms
 	
-‹­§“¯Šú
+å¼·åˆ¶åŒæœŸ
 	git stash save
 	git pull origin XX
 
-package.json•ÏXŒã
+package.jsonå¤‰æ›´å¾Œ
 	npm update
 
-git –³Ž‹ƒtƒ@ƒCƒ‹‚ðcache‚©‚çíœ
+git ç„¡è¦–ãƒ•ã‚¡ã‚¤ãƒ«ã‚’cacheã‹ã‚‰å‰Šé™¤
 	git rm -r --cached .vs
 
 To Do
 	style (font, grid)
-	IBM‚ÌLogo‚Í‚¸‚· (“à•”ŽQÆ)
+	IBMã®Logoã¯ãšã™ (å†…éƒ¨å‚ç…§)
 	
-
 	C:\Users\user\AppData\Local\Temp
+
+Shadow
+?@?@?@Homepage.js
+		import { HomepageBanner, HomepageCallout } from 'gatsby-theme-carbon';
+			D:\carbon\my-carbon-site\node_modules\gatsby-theme-carbon\src\components\Homepage/Banner.js
+			D:\carbon\my-carbon-site\node_modules\gatsby-theme-carbon\src\components\Homepage/Callout.js
+		import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
+			D:\carbon\my-carbon-site\node_modules\gatsby-theme-carbon\src\templates/Homepage.js
+				import Layout from '../components/Layout';
+				import { HomepageBanner, HomepageCallout } from '../components/Homepage';  ==>
+				import Main from '../components/Main';
