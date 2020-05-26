@@ -4,7 +4,9 @@ import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
 
 import Carbon from '../../images/carbon.jpg';
 
-const FirstLeftText = () => <p>Black Music CD Review</p>;
+import { gridmid } from './Homepage.module.scss';
+
+const FirstLeftText = () => <p>CD Review</p>;
 
 const FirstRightText = () => (
     <p>
@@ -12,7 +14,7 @@ const FirstRightText = () => (
     </p>
 );
 
-const SecondLeftText = () => <p>CD Best 50</p>;
+const SecondLeftText = () => <p> Album Best 50</p>;
 
 const SecondRightText = () => (
     <p>
@@ -26,19 +28,23 @@ const customProps = {
     Banner: <HomepageBanner renderText={BannerText} image={Carbon} />,
     FirstCallout: (
         <HomepageCallout
-            backgroundColor="#000000"
+            backgroundColor="#78a9ff"
             color="white"
             leftText={FirstLeftText}
             rightText={FirstRightText}
         />
     ),
-    children: (<p>aaa</p>),
+    children: (
+      <div className="gridmid">
+        <h3 className="gridmid">aaa</h3>
+      </div>
+    ),
     SecondCallout: (
         <HomepageCallout
             leftText={SecondLeftText}
             rightText={SecondRightText}
             color="white"
-            backgroundColor="#000000"
+            backgroundColor="#0043ce"
         />
     ),
 };

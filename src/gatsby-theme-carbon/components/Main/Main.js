@@ -4,7 +4,7 @@ import { Grid } from 'gatsby-theme-carbon/src/components/Grid';
 import { main, padded } from './Main.module.scss';
 
 const Main = (props) => (
-  <Grid
+  <Grid 
     className={cx(main, {
       [padded]: props.padded,
     })}

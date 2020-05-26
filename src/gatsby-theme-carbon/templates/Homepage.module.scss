@@ -3,3 +3,10 @@
   margin-top: $spacing-06;
   display: block;
 }
+.gridmid {
+  @include carbon--type-style('body-long-02');
+  border-left: 1px solid ;
+  border-right: 1px solid ;
+  background-color: "#FFFFFF" ;
+  max-height: 50px;
+}
