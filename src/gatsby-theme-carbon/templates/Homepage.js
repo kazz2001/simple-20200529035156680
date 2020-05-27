@@ -1,12 +1,12 @@
 import React from 'react';
 import { HomepageBanner, HomepageCallout } from 'gatsby-theme-carbon';
 import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
-
+import cx from 'classnames';
 import Carbon from '../../images/carbon.jpg';
 
 import { gridmid } from './Homepage.module.scss';
 
-const FirstLeftText = () => <p>CD Review</p>;
+const FirstLeftText = () => <p class="gridmid">CD Review</p>;
 
 const FirstRightText = () => (
     <p>
@@ -33,11 +33,6 @@ const customProps = {
             leftText={FirstLeftText}
             rightText={FirstRightText}
         />
-    ),
-    children: (
-      <div className="gridmid">
-        <h3 className="gridmid">aaa</h3>
-      </div>
     ),
     SecondCallout: (
         <HomepageCallout

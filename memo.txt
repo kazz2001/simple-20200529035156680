@@ -14,6 +14,7 @@ cfへのdeploy
 	git fetch origin
 	git branch B1 origin/B1
 	git checkout B1
+	??yarn install    npm i yarn
 
 	npm install -S @carbon/pictograms
 	
