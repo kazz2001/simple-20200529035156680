@@ -1,20 +1,18 @@
 import React from 'react';
 import { HomepageBanner, HomepageCallout } from 'gatsby-theme-carbon';
 import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
-import cx from 'classnames';
 import Carbon from '../../images/carbon.jpg';
 
-import { gridmid } from './Homepage.module.scss';
-
-const FirstLeftText = () => <p class="gridmid">CD Review</p>;
-
+const FirstLeftText = () =>
+    <h2>CD Review</h2>
+;
 const FirstRightText = () => (
     <p>
         <code>Black Music CD Review</code> introduces CD review for Soul and Hip-Hop since 1998
     </p>
 );
 
-const SecondLeftText = () => <p> Album Best 50</p>;
+const SecondLeftText = () => <h2> Album Best 50</h2>;
 
 const SecondRightText = () => (
     <p>
@@ -39,7 +37,7 @@ const customProps = {
             leftText={SecondLeftText}
             rightText={SecondRightText}
             color="white"
-            backgroundColor="#0043ce"
+            backgroundColor="#78a9ff"
         />
     ),
 };

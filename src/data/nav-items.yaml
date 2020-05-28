@@ -7,12 +7,9 @@
       path: /cd/2019
     - title: 2018
       path: /cd/2018
-- title: Best 50 
+- title: Best 50 Albums 
   pages:
     - title: 2019
       path: /best50/2019
     - title: 2018
       path: /best50/2018
-- title: Last Reviews
-  pages:
-    - path: /review/raulmidon1L
